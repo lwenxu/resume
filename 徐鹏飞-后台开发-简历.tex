@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % 
+
+% moderncv 主题
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue}                          % 
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+% 字符编码
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+\usepackage{CJKutf8}
+
+% 调整页面
+\usepackage[scale=0.89]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
+
+% 个人信息
+\firstname{\qquad徐鹏飞}
+\familyname{}
+
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
+\maketitle
+% 个人信息
+\section {基本信息}		
+\cventry{地址：}{陕西省--西北大学长安校区}{}{}{}{}
+\cventry{电话：}{15686299209}{}{}{}{}
+\cventry{邮箱：}{xpf199741@stumail.nwu.edu.cn}{}{}{}{}
+\cventry{博客：}{\href {http://lwenxu.coding.me/} {http://lwenxu.coding.me/}}{}{}{}{}
+\cventry{GitHub：}{\href{https://github.com/lwenxu}{https://github.com/lwenxu}}{}{}{}{}
+
+\section{教育背景}
+\cventry{2015--至今}{本科}{西北大学}{计算机科学与技术}{}{}  % 第3到第6编码可留白
+
+
+\section{求职意向}
+\cventry{期望职位}{后端开发工程师}{}{}{}{}
+
+\section{专业技能}
+\cvlistitem{能熟练运用Java 及 C++ 等面向对象语言}
+\cvlistitem{熟悉 PHP 后台开发，具有学校网站建设和开发经验，了解 HTML/CSS/JS 等前端开发}
+\cvlistitem{熟练使用 MySQL 有过数据库设计和部署的经验}
+\cvlistitem{熟练掌握MVC模式，有 ThinkPHP、 OneThink 的开发经验}
+\cvlistitem{了解操作系统的基本原理，熟悉 Linux 环境，有一定的使用经历。熟悉常用环境的搭建，熟悉 Shell 脚本的编写及 vim 操作}
+\cvlistitem{熟悉 git 等版本控制工具的使用}
+
+
+\section{项目经历}
+\subsection{2016 - 2017  西北大学 PT 站}
+\cvitem{采用技术: }{ PHP , HTML/CSS/JS , MySQL, Linux }
+\cvitem{负责内容: }{书写前端和后台代码,负责新功能的审核考察及开发,站点数据库及服务器维护,Mysql设计表，调整字段 }
+\cvitem{项目地址: }{\href { https://github.com/lwenxu/jmbits} {https://github.com/lwenxu/jmbits}}
+\cvitem{项目简介: }
+{本项目开发是基于 ipv6 和 P2P 技术的资源共享站点。项目采用 PHP 等 Web 技术构建一个共享优质资源的平台，采用会员登录及积分奖励制度促进资源共享。使用 IPv6 和 P2P 技术实现资源的免流共享，并且利用校园内网空闲带宽，节省外网出口流量。}
+
+\subsection{2016 - 2017  西北大学摄影展}
+\cvitem{采用技术: }{ PHP , HTML/CSS/JS , MySQL, Linux,ThinkPHP }
+\cvitem{负责内容: }{ 书写后台逻辑代码,后台管理系统的开发,站点数据库开发及服务器维护 }
+\cvitem{项目简介: }
+{本项目开发是基于 ThinkPHP 框架的摄影作品提交，审核，评分及展示的 Web 应用。前端负责摄影作品展示，提供方便的操作和良好视觉体验。后台对不同角色用户进行权限划分，及对摄影作品支持审核，多人评分，及其他操作。}
+
+
+
+\section{奖项}
+\cvlistitem{2015-2016  一等奖学金}
+\cvlistitem{2015-2016  国家励志奖学金}
+\cvlistitem{2016-2017  一等奖学金}
+\cvlistitem{2016-2017  国家励志奖学金 }
+
+
+\section{个人评价}
+\cvlistitem{善于自学，热爱技术}
+\cvlistitem{善于思考总结，具有较强的钻研能力}
+\cvlistitem{有较强的团队合作意识}
+\cvlistitem{能坚持不懈地去做一件事}
+
+\renewcommand{\baselinestretch}{1.0} 
+ 
+\closesection{}                   % needed to renewcommands 
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists 
+\clearpage\end{CJK} 
+\end{document} 
+%% 文件结尾 `template-zh.tex'.
